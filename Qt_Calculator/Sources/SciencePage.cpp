@@ -37,6 +37,7 @@ void SciencePageWidget::changeMode(const Mode mode) const
 	}
 }
 
+
 void SciencePageWidget::signalConnect()
 {
 	connect(ui.btn_1, &QPushButton::clicked, this, [this] {emit inputNumber(1); });

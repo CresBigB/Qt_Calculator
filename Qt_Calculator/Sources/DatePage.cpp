@@ -40,6 +40,7 @@ void DatePageWidget::evaluate() const
 		minus();
 }
 
+
 void DatePageWidget::add() const
 {
 	auto currentDate = ui.dateEdit->date();
