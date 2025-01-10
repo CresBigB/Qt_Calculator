@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>black.css</file>
+        <file>white.css</file>
+        <file>Translator/en.qm</file>
+        <file>Translator/zh_cn.qm</file>
+    </qresource>
+</RCC>

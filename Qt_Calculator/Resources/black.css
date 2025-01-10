@@ -1,0 +1,33 @@
+﻿* {
+    background-color: #333333;
+    color: #f0f0f0;
+}
+
+.QPushButton {
+    font-size: 16px;
+}
+
+    .QPushButton:hover {
+        background-color: #595959;
+    }
+
+    .QPushButton:disabled {
+        background-color: #404040;
+    }
+
+QMenu {
+    background-color: #595959;
+    border: 1px solid black;
+}
+
+    QMenu::item {
+        background-color: transparent;
+    }
+
+        QMenu::item:selected {
+            background-color: #1f1f1f;
+        }
+
+QMenuBar::item:selected {
+    background: #595959;
+}
